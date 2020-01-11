@@ -1,0 +1,843 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook source-build='2019.4.0 (20194.19.1010.1202)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' inline='true' name='federated.0y84f0n0neqc0s127t4d81duc70k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SAP Bestanddaten' name='excel-direct.17suiw30hao0ee17flw8j1sdsxw5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/jonasf/htw-git/BWA-2019-Tableau/SAP Bestanddaten.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.17suiw30hao0ee17flw8j1sdsxw5' name='99999 Export only DE with Price' table='[&apos;99999 Export only DE with Price$&apos;]' type='table'>
+          <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' lost='1' outcome='2' processed='41727'>
+            <column datatype='string' name='9/12/2019' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>9/12/2019</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[9/12/2019]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>9/12/2019</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[99999 Export only DE with Price]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10001:no:A1:R10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AVG Werk' datatype='real' name='[Calculation_2450591522883743745]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Gesamtwert])/[Calculation_946459616079970306]' />
+      </column>
+      <column caption='Anzahl Materialien' datatype='integer' name='[Calculation_946459616077737984]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Materialkurztext])' />
+      </column>
+      <column caption='Anzahl Werke' datatype='integer' name='[Calculation_946459616079970306]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Werk])' />
+      </column>
+      <column datatype='real' hidden='true' name='[F2]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Frei verwendbar]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.67638' measure-ordering='alphabetic' measure-percentage='0.32362' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='%null%' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='AVG Werk'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' name='federated.0y84f0n0neqc0s127t4d81duc70k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y84f0n0neqc0s127t4d81duc70k'>
+            <column caption='AVG Werk' datatype='real' name='[Calculation_2450591522883743745]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Gesamtwert])/[Calculation_946459616079970306]' />
+            </column>
+            <column caption='Anzahl Werke' datatype='integer' name='[Calculation_946459616079970306]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Werk])' />
+            </column>
+            <column datatype='real' name='[Gesamtwert]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Werk]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2450591522883743745]' derivation='User' name='[usr:Calculation_2450591522883743745:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0y84f0n0neqc0s127t4d81duc70k].[usr:Calculation_2450591522883743745:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{39C346DC-B4CF-43AD-8848-8CCD42D3D0EB}' />
+    </worksheet>
+    <worksheet name='Anzahl Materialien'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' name='federated.0y84f0n0neqc0s127t4d81duc70k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y84f0n0neqc0s127t4d81duc70k'>
+            <column caption='Anzahl Materialien' datatype='integer' name='[Calculation_946459616077737984]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Materialkurztext])' />
+            </column>
+            <column datatype='string' name='[Materialkurztext]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_946459616077737984]' derivation='User' name='[usr:Calculation_946459616077737984:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0y84f0n0neqc0s127t4d81duc70k].[usr:Calculation_946459616077737984:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0A2E295D-85CF-47E3-A0C3-8ACBF77FFD5A}' />
+    </worksheet>
+    <worksheet name='Anzahl Werke'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' name='federated.0y84f0n0neqc0s127t4d81duc70k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y84f0n0neqc0s127t4d81duc70k'>
+            <column caption='Anzahl Werke' datatype='integer' name='[Calculation_946459616079970306]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Werk])' />
+            </column>
+            <column datatype='string' name='[Werk]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_946459616079970306]' derivation='User' name='[usr:Calculation_946459616079970306:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0y84f0n0neqc0s127t4d81duc70k].[usr:Calculation_946459616079970306:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0F29F58B-A03F-490F-A220-64C9DEF8EC6B}' />
+    </worksheet>
+    <worksheet name='Gesamtwarenwert'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' name='federated.0y84f0n0neqc0s127t4d81duc70k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y84f0n0neqc0s127t4d81duc70k'>
+            <column datatype='real' name='[Gesamtwert]' role='measure' type='quantitative' />
+            <column-instance column='[Gesamtwert]' derivation='Sum' name='[sum:Gesamtwert:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0y84f0n0neqc0s127t4d81duc70k].[sum:Gesamtwert:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{48C1EBC0-0AFD-4FCE-9E70-1BD041A952F3}' />
+    </worksheet>
+    <worksheet name='Materialliste'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' name='federated.0y84f0n0neqc0s127t4d81duc70k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y84f0n0neqc0s127t4d81duc70k'>
+            <column aggregation='Sum' datatype='integer' name='[Frei verwendbar]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Gesamtwert]' role='measure' type='quantitative' />
+            <column datatype='string' name='[LOrt]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Material]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Materialkurztext]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Werk]' role='dimension' type='nominal' />
+            <column-instance column='[Frei verwendbar]' derivation='None' name='[none:Frei verwendbar:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[LOrt]' derivation='None' name='[none:LOrt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Material]' derivation='None' name='[none:Material:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Materialkurztext]' derivation='None' name='[none:Materialkurztext:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Werk]' derivation='None' name='[none:Werk:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gesamtwert]' derivation='Sum' name='[sum:Gesamtwert:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0y84f0n0neqc0s127t4d81duc70k].[sum:Gesamtwert:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0y84f0n0neqc0s127t4d81duc70k].[none:Material:nk] / ([federated.0y84f0n0neqc0s127t4d81duc70k].[none:Frei verwendbar:ok] / ([federated.0y84f0n0neqc0s127t4d81duc70k].[none:Materialkurztext:nk] / ([federated.0y84f0n0neqc0s127t4d81duc70k].[none:LOrt:nk] / [federated.0y84f0n0neqc0s127t4d81duc70k].[none:Werk:nk]))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1E39FFA6-18EC-4405-94B6-6B68514FA335}' />
+    </worksheet>
+    <worksheet name='Materialübersicht'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='99999 Export only DE with Price (SAP Bestanddaten)' name='federated.0y84f0n0neqc0s127t4d81duc70k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y84f0n0neqc0s127t4d81duc70k'>
+            <column aggregation='Sum' datatype='integer' name='[Frei verwendbar]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Material]' role='dimension' type='nominal' />
+            <column-instance column='[Frei verwendbar]' derivation='None' name='[none:Frei verwendbar:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Material]' derivation='None' name='[none:Material:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0y84f0n0neqc0s127t4d81duc70k].[none:Material:nk] / [federated.0y84f0n0neqc0s127t4d81duc70k].[none:Frei verwendbar:ok])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{6F0D0CF6-6299-4FE6-A6D1-13894F0E9611}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='3' name='Anzahl Materialien' w='49200' x='50000' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='5' name='Anzahl Werke' w='49200' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24500' id='6' name='Gesamtwarenwert' w='49200' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24500' id='9' name='AVG Werk' w='49200' x='800' y='25500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='16' name='Materialliste' w='49200' x='50000' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='17' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='188' h='24500' id='6' is-fixed='true' name='Gesamtwarenwert' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Anzahl Materialien' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24500' id='9' is-fixed='true' name='AVG Werk' w='49200' x='800' y='25500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Anzahl Werke' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='16' is-fixed='true' name='Materialliste' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5C5EF450-ACF8-4117-85F3-D0D2E76E3F68}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='AVG Werk' />
+        <viewpoint name='Anzahl Materialien' />
+        <viewpoint name='Anzahl Werke' />
+        <viewpoint name='Gesamtwarenwert' />
+        <viewpoint name='Materialliste' />
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{FF384B29-BA3C-43C9-8613-CDDEB45C3241}' />
+    </window>
+    <window class='worksheet' name='Anzahl Materialien'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ABF7A2B7-46D7-4FE3-9504-2B22FB8457C3}' />
+    </window>
+    <window class='worksheet' name='Anzahl Werke'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1BF17454-3494-4694-B5D5-BCFAC5D0A8CD}' />
+    </window>
+    <window class='worksheet' name='Gesamtwarenwert'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3F1EE608-BBEA-4166-96E1-18D404AB4F37}' />
+    </window>
+    <window class='worksheet' name='AVG Werk'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{09095DF7-83D8-43CA-B16E-B2912DD56CE4}' />
+    </window>
+    <window class='worksheet' name='Materialliste'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D2612560-8370-4F92-BE28-296F9945DCD1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Materialübersicht'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{56684506-FDFB-4C55-8EAE-A6B2B89905C8}' />
+    </window>
+  </windows>
+</workbook>
